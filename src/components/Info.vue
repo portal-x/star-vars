@@ -6,10 +6,9 @@
       <ul>
         <Item
           v-for="person of filteredItems"
-          :key="person.name"
+          :key="person[naming]"
           v-bind:item="person"
           v-on:select="showInfo"
-          v-bind:naming="naming"
         />
       </ul>
     </div>

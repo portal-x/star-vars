@@ -11,9 +11,6 @@ export default {
       type: Object,
       required: true,
     },
-    naming: {
-      required: true,
-    },
   },
 };
 </script>

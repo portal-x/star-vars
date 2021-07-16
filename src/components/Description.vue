@@ -27,7 +27,7 @@ export default {
       const hendled = {};
       for (let name in this.info) {
         const value = [];
-        if (typeof this.info[name] === "string") {
+        if (typeof this.info[name] !== "object") {
           value.push(this.info[name]);
         } else {
           value.push(...this.info[name]);

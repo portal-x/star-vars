@@ -12,6 +12,7 @@
 import Info from "@/components/Info.vue";
 
 export default {
+  name: "People",
   components: {
     Info,
   },

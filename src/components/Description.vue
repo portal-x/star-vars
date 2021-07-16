@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <table cellpadding="10" align="center">
+      <table cellpadding="10" align="center" width="700">
         <tr v-for="(value, key) in descript" :key="key">
           <td>{{ key }}</td>
           <td v-for="description of value" :key="description" class="descript">

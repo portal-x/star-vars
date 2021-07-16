@@ -1,16 +1,9 @@
 <template>
-  <div class="home">
-    <Some />
-  </div>
+  <div class="home">some text</div>
 </template>
 
 <script>
-import Some from "@/components/Some.vue";
-
 export default {
   name: "Home",
-  components: {
-    Some,
-  },
 };
 </script>

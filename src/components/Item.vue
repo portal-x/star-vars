@@ -1,6 +1,6 @@
 <template>
   <li v-on:click="$emit('select', item)">
-    <span>{{ item.name }}</span>
+    <span>{{ item.name || item.title }}</span>
   </li>
 </template>
 
@@ -13,11 +13,6 @@ export default {
     },
     naming: {
       required: true,
-    },
-  },
-  methods: {
-    handleClick() {
-      console.log("name:", this.item.name);
     },
   },
 };

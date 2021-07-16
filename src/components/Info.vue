@@ -56,8 +56,8 @@ export default {
   },
   computed: {
     filteredItems() {
-      return this.list.filter(({ name }) =>
-        name.toLowerCase().startsWith(this.filter.toLowerCase())
+      return this.list.filter((item) =>
+        item[this.naming].toLowerCase().startsWith(this.filter.toLowerCase())
       );
     },
   },

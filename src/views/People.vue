@@ -4,7 +4,7 @@
       <h1>Star wars heroes</h1>
       <hr />
     </div>
-    <Info v-bind:url="url" />
+    <Info v-bind:url="url" v-bind:naming="naming" />
   </div>
 </template>
 
@@ -18,6 +18,7 @@ export default {
   data() {
     return {
       url: "https://swapi.dev/api/people",
+      naming: "name",
     };
   },
 };

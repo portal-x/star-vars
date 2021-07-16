@@ -1,7 +1,6 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/films">Films</router-link> |
+    <router-link to="/">Films</router-link> |
     <router-link to="/people">People</router-link> |
     <router-link to="/starships">Starships</router-link>
   </div>

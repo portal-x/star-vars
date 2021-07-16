@@ -1,4 +1,7 @@
 # star-vars
+### A simple Star Wars encyclopedia
+
+Deploy on vercel: https://star-vars.vercel.app/
 
 ## Project setup
 ```
